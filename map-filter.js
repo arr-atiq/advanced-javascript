@@ -16,3 +16,8 @@ const result = myContainer.map(function(value){
     return value*value;
 });
 console.log(result);
+
+const output = myContainer.map(value =>{
+    return value*2;
+});
+console.log(output);
